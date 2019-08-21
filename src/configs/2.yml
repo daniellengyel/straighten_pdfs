@@ -1,0 +1,33 @@
+# close_line_threshold: 10 # up and down.
+crop_lengths:
+  pad: 20
+  x_length: null
+  y_length: 2400
+find_line_start_end:      # how far the points can be to count as being on the same line.
+  approx_line_length: ''
+  x_threshold: 50
+  y_threshold: 7
+  x0: 200
+  x1: 3500
+find_lines:
+  apertureSize: 3
+  num_points: 500
+  rho: 1
+  theta: 0.008
+  threshold1: 50
+  threshold2: 100
+img_in_path: ''
+img_out_path: ''
+ref_line:
+  x: 0
+  y: 350
+  y_threshold: 70
+  # nth_line: 0  # which line to get from the found lines. # ideally should be the height in pixels.
+ref_points:
+  p1: # x, y
+  - 217
+  - 386
+  p2:
+  - 3000
+  - 386
+  perp_length: 20
